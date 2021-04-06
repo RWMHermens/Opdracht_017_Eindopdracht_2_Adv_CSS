@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
+
+@mixin linkpadding {
+    padding: 13px 0px 13px 13px;
+}
+@mixin hover {
+    &:hover {
+        transform: translateX(-180px);
+        transition: all 200ms ease;
+    }
+
+    &:not(:hover) {
+        transform: translateX(0px);
+        transition: all 200ms ease;
+    }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+body {
+    background-color: #c3cfe2;
+    font-family: 'Raleway', sans-serif;
+}
+.social-media {
+    width: 230px;
+    position: absolute;
+    right: -180px;
+    bottom: 50px;
+
+    &__image {
+        width: 16px;
+        height: auto;
+        margin-left: 5px;
+        margin-right: 20px;
+    }
+ 
+    &__link {
+        color: white;
+        font-size: 14px;
+    }
+
+    &__blog {
+        background-color: #e17b77;
+        @include linkpadding();
+        @include hover();
+    }
+
+    &__twitter {
+        background-color: #00aced;
+        @include linkpadding();
+        @include hover();
+    }
+
+    &__linkedin {
+        background-color: #007bb6;
+        @include linkpadding();
+        @include hover();
+    }
+
+    &__facebook {
+        background-color: #3b5998;
+        @include linkpadding();
+        @include hover();
+    }
+
+    &__github {
+        background-color: #333;
+        @include linkpadding();
+        @include hover();
+    }
+}

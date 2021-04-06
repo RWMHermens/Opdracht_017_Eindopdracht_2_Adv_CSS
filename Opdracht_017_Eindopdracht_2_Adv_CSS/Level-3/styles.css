@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+body {
+  background-color: #c3cfe2;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social-media {
+  width: 230px;
+  position: absolute;
+  right: -180px;
+  bottom: 50px;
+}
+
+.social-media__image {
+  width: 16px;
+  height: auto;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.social-media__link {
+  color: white;
+  font-size: 14px;
+}
+
+.social-media__blog {
+  background-color: #e17b77;
+  padding: 13px 0px 13px 13px;
+}
+
+.social-media__blog:hover {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__blog:not(:hover) {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__twitter {
+  background-color: #00aced;
+  padding: 13px 0px 13px 13px;
+}
+
+.social-media__twitter:hover {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__twitter:not(:hover) {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__linkedin {
+  background-color: #007bb6;
+  padding: 13px 0px 13px 13px;
+}
+
+.social-media__linkedin:hover {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__linkedin:not(:hover) {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__facebook {
+  background-color: #3b5998;
+  padding: 13px 0px 13px 13px;
+}
+
+.social-media__facebook:hover {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__facebook:not(:hover) {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__github {
+  background-color: #333;
+  padding: 13px 0px 13px 13px;
+}
+
+.social-media__github:hover {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.social-media__github:not(:hover) {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+/*# sourceMappingURL=styles.css.map */
